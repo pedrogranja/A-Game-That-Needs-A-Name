@@ -13,9 +13,9 @@ You just found the power of agriculture and how to start to change the world in 
 ### Third Age
 The world is huge and you have been stuck in this tiny little island for far too long... Time to sail off and explore the rest of the world in search of new resources...
 ### Fourth Age
-You start to get comfy whit your coal powered machines and it's the start of a brand-new chapter, one where you don't need to do all the tasks... And survival is a thing of the past!!
+You start to get comfy with your coal powered machines and it's the start of a brand-new chapter, one where you don't need to do all the tasks... And survival is a thing of the past!!
 ### Fifth Age
-Turns out there is a better way to power all your machines that doesn't involve you to tirelessly fill them up whit coal... The dawn of electricity allows you to make better and faster machines and also to automate your research.
+Turns out there is a better way to power all your machines that doesn't involve you to tirelessly fill them up with coal... The dawn of electricity allows you to make better and faster machines and also to automate your research.
 ### Sixth Age
 Prepare to escape from the planet and finish your journey!
 ## Design
