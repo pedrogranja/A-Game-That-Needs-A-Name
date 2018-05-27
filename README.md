@@ -19,5 +19,6 @@ Turns out there is a better way to power all your machines that doesn't involve 
 ### Sixth Age
 Prepare to escape from the planet and finish your journey!
 ## Design
-The game is designed to use a low poli approach and an hexagonal tile system
-### Current State
+The game is designed to use a low poly approach and an hexagonal tile system
+### Current Design State
+![alt text](https://github.com/pedrogranja/A-Game-That-Needs-A-Name/blob/master/blenderAndDocumentation/currentState.png)
