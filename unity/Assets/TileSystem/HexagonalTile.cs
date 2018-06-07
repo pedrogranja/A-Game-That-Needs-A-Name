@@ -12,6 +12,8 @@ public class HexagonalTile : MonoBehaviour {
         public HexagonalTile upRight;
         public HexagonalTile downLeft;
         public HexagonalTile downRight;
+        public HexagonalTile up;
+        public HexagonalTile down;
     }
 
     private struct ArrowPointing
@@ -68,19 +70,21 @@ public class HexagonalTile : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        /*
         FindMyNeighbours(neighbours);
         GetComponentInChildren<TextMesh>().text = name.Trim("GroundTilecvybt ()".ToCharArray());
+        */
 	}
 	
+    /*
 	// Update is called once per frame
 	void Update () {
         foreach (ArrowPointing arrowToTile in arrowsToTiles)
         {
-            arrowToTile.arrow.LookAt(arrowToTile.target.transform, Vector3.up);
             float distance = Vector3.Distance(arrowToTile.arrow.position, arrowToTile.target.transform.position);
             arrowToTile.arrow.localScale = new Vector3(distance, distance, distance);
         }
 	}
-
+    */
 }
 
