@@ -42,17 +42,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material_004
-    second: {fileID: 2100000, guid: 906171312b6d18d45b71f2c77bc89e39, type: 3}
+    second: {fileID: 2100000, guid: 3e222d725c6423144a18a7d301eb5db1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: grass_001
-    second: {fileID: 2100000, guid: 6f3324e1b4ed5b7418272fc80c79616a, type: 2}
+    second: {fileID: 2100000, guid: 0a18a099e5aa7004ab297ea1f66b87bb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ground_001
-    second: {fileID: 2100000, guid: ab5156e526dbe71449b7d07dceec5026, type: 2}
+    second: {fileID: 2100000, guid: 112c0586766233542bd2af3f192e2219, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

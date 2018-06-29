@@ -331,20 +331,31 @@
     <Compile Include="Assets\Dependecies\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Dependecies\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Dependecies\QuickOutline\Scripts\Outline.cs" />
-    <Compile Include="Assets\Gameobjects\cloud\simpleMovement.cs" />
-    <Compile Include="Assets\Gameobjects\conveyor-belt-2\conveyor_belt.cs" />
-    <Compile Include="Assets\Gameobjects\furnace\Furnace.cs" />
-    <Compile Include="Assets\Gameobjects\InputOutputLogic.cs" />
-    <Compile Include="Assets\Gameobjects\items\Item.cs" />
-    <Compile Include="Assets\Gameobjects\items\Network.cs" />
-    <Compile Include="Assets\Gameobjects\items\Node.cs" />
-    <Compile Include="Assets\Gameobjects\testNetwork.cs" />
-    <Compile Include="Assets\TileSystem\HexagonalTile.cs" />
-    <Compile Include="Assets\TileSystem\ObjectCreationEditorMode.cs" />
+    <Compile Include="Assets\Services\ItemTransportationServices\AddRemoveItemInterface.cs" />
+    <Compile Include="Assets\Services\ItemTransportationServices\ItemTransportationNetworkView.cs" />
+    <Compile Include="Assets\Services\ItemTransportationServices\ItemTransportationService.cs" />
+    <Compile Include="Assets\Services\ItemTransportationServices\NodeView.cs" />
+    <Compile Include="Assets\Systems\InventorySystem\Inventory.cs" />
+    <Compile Include="Assets\Systems\InventorySystem\InventorySlot.cs" />
+    <Compile Include="Assets\Systems\InventorySystem\Item.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\ConveyorBelt.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\Furnace.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\ItemTransportationException.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\ItemTuple.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\NetworkManager.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\Node.cs" />
+    <Compile Include="Assets\Systems\ItemTransportationSystem\NodeTemplate.cs" />
+    <Compile Include="Assets\Systems\TileSystem\HexagonalTile.cs" />
+    <Compile Include="Assets\Systems\TileSystem\ObjectCreator.cs" />
+    <Compile Include="Assets\Tests\TestItems.cs" />
+    <Compile Include="Assets\Tests\TestNetwork.cs" />
     <Compile Include="Assets\UI\inputScripts\ReceiveTouchEvent.cs" />
     <Compile Include="Assets\UI\inputScripts\TouchScreenInput.cs" />
+    <Compile Include="Assets\UI\UI\BottomInventory.cs" />
+    <Compile Include="Assets\UI\UI\BottomInventoryHandler.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Background\gradientBackground.shader" />
     <None Include="Assets\Dependecies\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\Dependecies\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\Dependecies\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
@@ -400,7 +411,6 @@
     <None Include="Assets\Dependecies\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Dependecies\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\Dependecies\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-    <None Include="Assets\background\gradientBackground.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

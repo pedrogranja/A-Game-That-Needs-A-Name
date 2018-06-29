@@ -20,7 +20,7 @@ public class ReceiveTouchEvent : MonoBehaviour {
                 break;
 
             case PlayerState.EDITORMODE:
-                ObjectCreationEditorMode objectCreation = ObjectCreationEditorMode.getInstance();
+                ObjectCreator objectCreation = ObjectCreator.getInstance();
                 objectCreation.OnTouchDown(gameObject);
                 break;
 
