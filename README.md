@@ -21,4 +21,4 @@ Prepare to escape from the planet and finish your journey!
 ## Design
 The game is designed to use a low poly approach and a hexagonal tile system
 ### Current Design State
-<img src="https://github.com/pedrogranja/A-Game-That-Needs-A-Name/blob/master/blenderAndDocumentation/currentState.png" alt="drawing" width="300"/>
+<img src="https://github.com/pedrogranja/A-Game-That-Needs-A-Name/blob/master/Documentation/currentState.png" alt="drawing" width="300"/>
