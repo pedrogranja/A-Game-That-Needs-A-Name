@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity", "unity.csproj", "{542E94B8-9F48-83EE-3A35-B6C8F15311F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity.Editor", "unity.Editor.csproj", "{AD1A7FEF-F693-FAE3-9551-5028F02F80E0}"
