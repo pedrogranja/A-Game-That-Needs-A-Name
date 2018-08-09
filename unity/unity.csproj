@@ -360,6 +360,7 @@
     <Compile Include="Assets\UI\inputScripts\TouchScreenInput.cs" />
     <Compile Include="Assets\UI\UI\BottomInventory.cs" />
     <Compile Include="Assets\UI\UI\BottomInventoryHandler.cs" />
+    <Compile Include="Assets\UI\UI\TransparentBlocksEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Dependecies\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -417,6 +418,7 @@
     <None Include="Assets\Dependecies\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Dependecies\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\Dependecies\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Materials\MyTranslucidShader.shader" />
     <None Include="Assets\background\gradientBackground.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,7 +5,7 @@ using UnityEngine;
 public class TouchScreenInput : MonoBehaviour {
 
     public LayerMask touchInputMask;
-    [SerializeField] private Camera camera;
+    [SerializeField] new private Camera camera;
     private RaycastHit hit;
     private GameObject prevGameObject;
 
@@ -15,7 +15,6 @@ public class TouchScreenInput : MonoBehaviour {
 #if UNITY_EDITOR
         if (Input.GetMouseButton(0) || Input.GetMouseButtonDown(0) || Input.GetMouseButtonUp(0))
         {
-
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit, touchInputMask))
