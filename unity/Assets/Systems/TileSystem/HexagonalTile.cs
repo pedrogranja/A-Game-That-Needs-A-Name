@@ -55,7 +55,7 @@ public class HexagonalTile : MonoBehaviour {
                                 dist(hit.transform).ToString("F2") +
                                 "</b>)");
 
-        Debug.Log(pad(name) + pad(direction.ToString()) + "[" + hitsLog + "]");
+        //Debug.Log(pad(name) + pad(direction.ToString()) + "[" + hitsLog + "]");
 
         Func<float, float> f = (x) => (x + 2) / 4;
         Color arrowColor = new Color(f(direction.x), f(direction.y), f(direction.z));
